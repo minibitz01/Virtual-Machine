@@ -31,7 +31,7 @@ The PM/0 virtual machine executes generated instructions using a stack-based arc
 
 C
 
-## Sample Input
+## Sample Input (Virtual Machine & PL/0 Compiler)
 
 ```
 7 0 45
@@ -56,7 +56,7 @@ C
 9 0 3
 ```
 
-## Sample Output
+## Sample Output (Virtual Machine & PL/0 Compiler)
 
 ```
 L   M   PC   BP   SP   stack
@@ -87,7 +87,7 @@ SYS   0   3    60   480   476   0 0 0 0 12
 
 
 
-## Sample Source Program
+## Sample Input (Scanner/ Lexical Analyzer)
 
 ```
 var x, y;
@@ -97,7 +97,7 @@ x := y + 56;
 end.
 ```
 
-## Console Output from Sample Input Program 1
+## Sample Output (Scanner/ Lexical Analyzer)
 
 ### Lexeme Table
 
