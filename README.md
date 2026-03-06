@@ -31,6 +31,18 @@ The PM/0 virtual machine executes generated instructions using a stack-based arc
 
 C
 
+## Compile
+
+```bash
+gcc -O2 -Wall -std=c11 -o vm vm.c
+```
+
+## Run
+
+```bash
+./vm input.txt
+```
+
 ## Sample Input (Virtual Machine & PL/0 Compiler)
 
 ```
@@ -86,6 +98,17 @@ SYS   0   3    60   480   476   0 0 0 0 12
 ```
 
 
+## Compile (Scanner/ Lexical Analyzer)
+
+```bash
+gcc -O2 -std=c11 -o lex lex.c
+```
+
+## Run
+
+```bash
+./lex InputFile.txt
+```
 
 ## Sample Input (Scanner/ Lexical Analyzer)
 
