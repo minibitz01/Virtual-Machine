@@ -1,27 +1,3 @@
-/*
-Assignment :
-lex - Lexical Analyzer for PL /0
-Author : Ana Paula Ramos Lopez
-Language : C( only )
-To Compile :
-gcc -O2 -std =c11 -o lex lex .c
-To Execute (on Eustis ):
-./ lex <input file >
-where :
-<input file > is the path to the PL /0 source program
-Notes :
-- Implement a lexical analyser for the PL /0 language .
-- The program must detect errors such as
-- numbers longer than five digits
-- identifiers longer than eleven characters
-- invalid characters .
-- The output format must exactly match the specification .
-- Tested on Eustis .
-Class : COP 3402 - System Software - Spring 2026
-Instructor : Dr. Jie Lin
-Due Date : Monday , March 2, 2026
-*/
-
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
