@@ -54,7 +54,7 @@ C
 9 0 1
 9 0 3
 
-**## Sample Output**
+## Sample Output
 ```
 L   M   PC   BP   SP   stack
 Initial values:      0   480   481
@@ -76,6 +76,7 @@ LSS   0   8    30   474   470   0 0 0 0 12 8 | 480 480 54 0 0
 JPC   0   39   39   474   471   0 0 0 0 12 8 | 480 480 54 0
 LIT   0   5    42   474   470   0 0 0 0 12 8 | 480 480 54 0 5
 RTN   0   0    54   480   475   0 0 0 0 12 8
+```
 
 Output result is: 8
 SYS   0   1    57   480   476   0 0 0 0 12
