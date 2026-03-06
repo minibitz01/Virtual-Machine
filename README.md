@@ -84,3 +84,55 @@ Output result is: 8
 SYS   0   1    57   480   476   0 0 0 0 12
 SYS   0   3    60   480   476   0 0 0 0 12
 ```
+
+
+
+## Sample Source Program
+
+```
+var x, y;
+begin
+y := 3;
+x := y + 56;
+end.
+```
+
+## Console Output from Sample Input Program 1
+
+### Lexeme Table
+
+```
+lexeme   token type
+var      14
+x        2
+,        31
+y        2
+;        32
+begin    4
+y        2
+:=       34
+3        3
+;        32
+x        2
+:=       34
+y        2
++        19
+56       3
+;        32
+end      5
+.        33
+```
+
+### Name Table
+
+```
+Index   Name
+0       x
+1       y
+```
+
+### Token List
+
+```
+14 2 0 31 2 1 32 4 2 1 34 3 3 32 2 0 34 2 1 19 3 56 32 5 33
+```
