@@ -55,6 +55,7 @@ C
 9 0 3
 
 ## Sample Output
+
 ```
 L   M   PC   BP   SP   stack
 Initial values:      0   480   481
