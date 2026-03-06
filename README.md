@@ -32,6 +32,7 @@ The PM/0 virtual machine executes generated instructions using a stack-based arc
 C
 
 ## Sample Input
+
 ```
 7 0 45
 7 0 6
@@ -53,9 +54,10 @@ C
 5 0 3
 9 0 1
 9 0 3
-
+```
 
 ## Sample Output
+
 ```
 L   M   PC   BP   SP   stack
 Initial values:      0   480   481
@@ -81,4 +83,4 @@ RTN   0   0    54   480   475   0 0 0 0 12 8
 Output result is: 8
 SYS   0   1    57   480   476   0 0 0 0 12
 SYS   0   3    60   480   476   0 0 0 0 12
-
+```
